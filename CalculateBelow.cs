@@ -8,6 +8,7 @@ namespace CodeAssessment
 {
     internal class CalculateBelow
     {
+        //BS; Commented out completely to allow successful compile
         //internal Double[] FindBelow20(string folderPath, string file, int dataIndex, int dateIndex, double median)
         //{
         //    List<string> result = new List<string>();

@@ -25,6 +25,7 @@ foreach (string file in fileList)
 {
     medianValueReturn = calculateMedian.FindMedian(folderPath, file, columnIndex, dateIndex);
 
+    //BS; Commented out since these updates would not allow compile yet
     //medianValue = double.Parse(medianValueReturn[2]);
     //belowMedian = calculateBelow.FindBelow20(folderPath, file, columnIndex, dateIndex, medianValue);
 
@@ -35,7 +36,3 @@ foreach (string file in fileList)
 
 }
 Console.ReadKey();
-
-
-
-

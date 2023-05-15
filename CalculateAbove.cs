@@ -7,7 +7,8 @@ using System.Threading.Tasks;
 namespace CodeAssessment
 {
     internal class CalculateAbove
-    {
+    {       
+        //BS; Commented out completely to allow successful compile
         //internal Double[] FindAbove20(string folderPath, string file, int dataIndex, int dateIndex, double median)
         //{
         //    List<string> result = new List<string>();
@@ -60,5 +61,3 @@ namespace CodeAssessment
 
     }
 }
-
-//{file name} {datetime} {value} {median value}

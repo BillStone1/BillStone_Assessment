@@ -47,7 +47,7 @@ namespace CodeAssessment
 
                 result.Add(tempFormatter);
 
-                Console.WriteLine($"FileName: {file}  Date/Time: {dateValue}  Median: {medianResults}");
+                //Console.WriteLine($"FileName: {file}  Date/Time: {dateValue}  Median: {medianResults}");
 
                 return result.ToArray();
             }
@@ -60,20 +60,3 @@ namespace CodeAssessment
 
     }
 }
-
-
-//internal double CalculateAboveMedian(double medianResults)
-//{
-//    calcResults = 1;
-
-//    return calcResults;
-
-//}
-
-//calcResults = 1;
-
-//return calcResults;
-
-//    }
-
-
